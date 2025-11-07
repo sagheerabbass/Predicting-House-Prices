@@ -12,6 +12,7 @@ df=pd.read_csv('housing.csv')
 print("Data Overview:")
 print(df.head())
 
+# Data Splitting
 X=df[['Area','Bedrooms','Bathrooms']]
 y=df['Price']
 
